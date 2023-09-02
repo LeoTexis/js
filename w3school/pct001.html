@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica com w3school</title>
+    <style>
+        #demo {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">O que podemos fazer com JS ?</h1>
+    <p id="demo">JS pode alterar o conteudo HTML</p>
+    <button type="button" onclick="window.document.getElementById('demo').innerText = 'Hello World!!'""> Clique Aqui</button>
+    <br>
+    <button type="button" onclick="window.document.getElementById('titulo').style.fontSize='35px'">Aumente o título</button>
+
+    <h2>Vamos esconder elementos</h2>
+    <div style="height: 50px; width: 300px; border: 2px solid black;" >
+        <p id="hid" style="padding: auto; text-align: center;">Vamos esconder esse elemento</p>
+    </div>
+    <button type="button" onclick="window.document.getElementById('hid').style.display='none'">Esconda o elemento!</button>
+    <button type="button" onclick="window.document.getElementById('hid').style.display='block'">Mostre o elemento!</button>
+</body>
+</html>
