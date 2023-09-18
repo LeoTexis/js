@@ -11,12 +11,12 @@ function maior() {
 maior()
 
 function ganhoPorHora(salario, horas) {
-    
+       
     var salarioHora = salario / horas
-
     return salarioHora.toFixed(2)
 }
 console.log(ganhoPorHora(1000, 42))
-Number(ganhoPorHora)
-console.log(typeof(salarioHora))
 
+console.log(typeof(salarioHora))
+var salarioHora = Number(salarioHora)
+console.log(typeof(salarioHora))
