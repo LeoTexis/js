@@ -12,7 +12,6 @@ const f_portas = document.querySelector("#fPortas")
 let veiculos = []
 const removerCarro = (quem) =>{
     veiculos = veiculos.filter((el)=>{
-        console.log(el.nome)
         return el.nome != quem
     })
 }
