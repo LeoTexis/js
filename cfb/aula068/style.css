@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    top: 0px;
+    left: -230px;
+    transition: all 0.3s;
+}
+
+.calcEx {
+    left: 0px !important;
+    transition: all 0.3s;
+}
+
+.calcPrin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000ad;
+    border: 3px solid #bbb;
+    width: 230px;
+    border-radius: 10px;
+} 
+
+
+.divNome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+}
+
+.divDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    text-align: right;
+    width: 190px;
+    border: 1px solid #00f;
+    background-color: green;
+    padding: 5px;
+    font-family: monospace;
+    font-size: large;
+}
+
+.divTeclas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    flex-wrap: wrap;
+}
+
+.tecla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+    border: 3px solid #888;
+    font: bolder;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+#t0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+    border: 3px solid #888;
+    font: bolder;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.teclaOp {
+    background-color: #f44 !important;
+    border-color: red !important;
+}
+
+.calcAba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 50px;
+    background-color: RGBA(128,128,128,0.2);
+    border-radius: 0px 10px 10px 0px;
+    left: -230;
+    cursor: pointer;
+}
