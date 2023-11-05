@@ -67,7 +67,7 @@ class Bola{
         }
         if(this.py+this.size >= heiStage) {
             this.diry = -1
-        } else if(this.px <= 0){
+        } else if(this.py <= 0){
             this.diry = 1
         }
     }
@@ -82,7 +82,7 @@ class Bola{
         width:${this.size}px;
         height:${this.size}px;
         background-color:rgb(${this.r},${this.g},${this.b})`)
-        if((this.px > widStage) || (this.py > heiStage)){
+        if((this.px >= widStage) || (this.py >= heiStage)){
             this.remover()
         }
     }
