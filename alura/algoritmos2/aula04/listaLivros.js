@@ -44,3 +44,5 @@ const listaLivros = [
         preco: 50
     },
 ]
+
+module.exports = listaLivros
