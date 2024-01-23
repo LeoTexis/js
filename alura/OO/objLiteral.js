@@ -20,5 +20,3 @@ const exibir = function() {
 const exibirNome = exibir.bind(user)
 exibirNome()
 exibir()
-
-module.exports = user
